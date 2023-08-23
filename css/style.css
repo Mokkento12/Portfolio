@@ -141,6 +141,64 @@ body {
   margin: 0;
 }
 
+/* Projects */
+.projects {
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+
+.projects-slide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.project-text {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  flex-basis: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 41px;
+}
+
+.project-time,
+.project-cost {
+  flex-basis: 50%;
+  margin-bottom: 44px;
+}
+
+.project-time,
+.project-cost,
+.project-feedback {
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-subtitle {
+  margin: 0;
+  margin-bottom: 7px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.project-paragraph {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.project-icon {
+  margin-right: 16px;
+}
+
 /* Contacts */
 .contacts-form {
   border-radius: 5px;
