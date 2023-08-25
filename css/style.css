@@ -199,6 +199,27 @@ body {
   margin-right: 16px;
 }
 
+.projects-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.projects-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #FFBB01;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.projects-bullet-active {
+  background-color: #FFBB01;
+}
+
 /* Contacts */
 .contacts-form {
   border-radius: 5px;
